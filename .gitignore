@@ -3,7 +3,8 @@
 *.key
 *.csr
 *.srl
-
+tmp/*
+.env
 
 ### https://raw.github.com/github/gitignore/eee21bf0c397cddc39ff1c94615d135e0ad36f8c/Global/macOS.gitignore
 

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  simplesamlphp:
+    build:
+      context: "./"
+      dockerfile: Dockerfile
+    env_file:
+      - "./.env"
+    container_name: simplesamlphp-idp
+    command: >
+      bash -c "apachectl -D FOREGROUND -f /etc/apache2/apache2.conf"
