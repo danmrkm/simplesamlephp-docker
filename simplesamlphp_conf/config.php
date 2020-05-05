@@ -73,7 +73,7 @@ $config = [
      * also as the technical contact in generated metadata.
      */
     'technicalcontact_name' => 'Administrator',
-    'technicalcontact_email' => 'na@example.org',
+    'technicalcontact_email' => 'na@simplesamlphp.local',
 
     /*
      * (Optional) The method by which email is delivered.  Defaults to mail which utilizes the
@@ -138,7 +138,7 @@ $config = [
      * metadata listing and diagnostics pages.
      * You can also put a hash here; run "bin/pwgen.php" to generate one.
      */
-    'auth.adminpassword' => getenv('SIMPLESAMLPHP_ADMINPASSWORD'),
+    'auth.adminpassword' => getenv('SIMPLESAMLPHP_ADMIN_PASSWORD'),
 
     /*
      * Set this options to true if you want to require administrator password to access the web interface

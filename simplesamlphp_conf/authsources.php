@@ -81,12 +81,12 @@ $config = [
         //'remember.username.checked' => false,
 
         'student:studentpass' => [
-            'uid' => [1],
+            'uid' => ['1'],
             'eduPersonAffiliation' => ['member', 'student'],
 			'email' => 'student@simlesamlphp.local'
 		],
         'employee:employeepass' => [
-            'uid' => [2],
+            'uid' => ['2'],
             'eduPersonAffiliation' => ['member', 'employee'],
 			'email' => 'employee@simlesamlphp.local'
         ],

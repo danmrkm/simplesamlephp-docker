@@ -9,4 +9,6 @@ services:
       - "./.env"
     container_name: simplesamlphp-idp
     command: >
-      bash -c "apachectl -D FOREGROUND -f /etc/apache2/apache2.conf"
+      bash -c "apachectl -D FOREGROUND"
+    ports:
+      - 8443:443
